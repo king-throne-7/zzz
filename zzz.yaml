@@ -1,0 +1,13 @@
+name: poc
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: PoC by @vaib25vicky!
+        run: echo Hello, world!
